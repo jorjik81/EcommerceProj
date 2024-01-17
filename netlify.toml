@@ -1,8 +1,8 @@
+
 [build]
   command = "npm run build"
-  publish = "client/build"
+  publish = "client/dist"
   functions = "serverless_functions/"  # Only needed if using serverless functions
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
